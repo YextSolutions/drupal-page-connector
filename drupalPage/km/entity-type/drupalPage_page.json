@@ -1,8 +1,8 @@
 {
-  "$id": "acquiaDrupalPage_page",
+  "$id": "drupalPage_page",
   "$schema": "https://schema.yext.com/config/km/entity-type/v1",
   "description": "",
-  "displayName": "Acquia Page",
+  "displayName": "Drupal Page",
   "enabled": true,
   "field": [
     {
@@ -14,7 +14,7 @@
       "required": true
     },
     {
-      "id": "acquiaDrupalPage_acquiaDescription",
+      "id": "drupalPage_drupalDescription",
       "required": false
     },
     {

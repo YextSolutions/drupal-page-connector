@@ -1,13 +1,13 @@
 {
-  "$id": "acquiaDrupalPage_pageconnector",
+  "$id": "drupalPage_pageconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
-  "displayName": "Acquia Page Connector",
-  "entityType": "acquiaDrupalPage_page",
+  "displayName": "Drupal Page Connector",
+  "entityType": "drupalPage_page",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "${{acquiaDomain}}/jsonapi/node/page",
+        "url": "${{drupalDomain}}/jsonapi/node/page",
         "paginationControl": {
           "cursorPagination": {
             "cursor": "links.next",
@@ -61,7 +61,7 @@
             "Landing Page URL"
           ]
         },
-        "plugin": "acquiaDrupalPage_constructUrl",
+        "plugin": "drupalPage_constructUrl",
         "function": "constructUrl"
       }
     }
@@ -83,7 +83,7 @@
       "subfieldPath": []
     },
     {
-      "field": "acquiaDrupalPage_acquiaDescription",
+      "field": "drupalPage_drupalDescription",
       "header": "Description",
       "subfieldPath": []
     }
