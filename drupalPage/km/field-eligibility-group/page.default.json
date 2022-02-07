@@ -1,0 +1,12 @@
+{
+  "$id": "drupalPage_page.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Drupal Page-default",
+  "entityType": "drupalPage_page",
+  "fields": [
+    "landingPageUrl",
+    "drupalPage_drupalDescription",
+    "photoGallery",
+    "keywords"
+  ]
+}
