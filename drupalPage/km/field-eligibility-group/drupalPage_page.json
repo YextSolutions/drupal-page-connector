@@ -1,7 +1,7 @@
 {
-  "$id": "drupalPage_page.default",
+  "$id": "drupalPage_page",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Drupal Page-default",
+  "name": "Drupal Page",
   "entityType": "drupalPage_page",
   "fields": [
     "landingPageUrl",
